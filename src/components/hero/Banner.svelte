@@ -18,8 +18,6 @@
   slidesPerView={1}
   pagination={{ clickable: true }}
   effect='fade'
-  on:slideChange={() => console.log('slide change')}
-  on:swiper={(e) => console.log(e.detail)}
   class='w-full h-screen'
 >
   <SwiperSlide>
